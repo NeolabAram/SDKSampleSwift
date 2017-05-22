@@ -36,7 +36,6 @@
 		249128741ECAAD9B00CD3647 /* NJPenSensorCalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249128731ECAAD9B00CD3647 /* NJPenSensorCalViewController.swift */; };
 		249128761ECAADAA00CD3647 /* NJPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249128751ECAADAA00CD3647 /* NJPage.swift */; };
 		249128781ECAADBD00CD3647 /* NJStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249128771ECAADBD00CD3647 /* NJStroke.swift */; };
-		2491287A1ECAB47000CD3647 /* NISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249128791ECAB47000CD3647 /* NISDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +90,6 @@
 		249128731ECAAD9B00CD3647 /* NJPenSensorCalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NJPenSensorCalViewController.swift; path = Controllers/NJPenSensorCalViewController.swift; sourceTree = "<group>"; };
 		249128751ECAADAA00CD3647 /* NJPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NJPage.swift; path = Models/NJPage.swift; sourceTree = "<group>"; };
 		249128771ECAADBD00CD3647 /* NJStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NJStroke.swift; path = Models/NJStroke.swift; sourceTree = "<group>"; };
-		249128791ECAB47000CD3647 /* NISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NISDK.framework; path = n2sampleSwift/NISDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24886EF81ECC2EE40046A0CD /* libz.tbd in Frameworks */,
-				2491287A1ECAB47000CD3647 /* NISDK.framework in Frameworks */,
 				2491281F1ECAA91C00CD3647 /* Foundation.framework in Frameworks */,
 				2491281D1ECAA91100CD3647 /* UIKit.framework in Frameworks */,
 				2491280A1ECA9E3E00CD3647 /* CoreGraphics.framework in Frameworks */,
@@ -184,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				24886EF71ECC2EE40046A0CD /* libz.tbd */,
-				249128791ECAB47000CD3647 /* NISDK.framework */,
 				2491281E1ECAA91C00CD3647 /* Foundation.framework */,
 				2491281C1ECAA91100CD3647 /* UIKit.framework */,
 				249128091ECA9E3E00CD3647 /* CoreGraphics.framework */,
